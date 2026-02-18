@@ -8,23 +8,27 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>{"à propos de moi".toLocaleUpperCase()}</h1>
 
 	<p>
-		This is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> app. You can make your own by typing
-		the following into your command line and following the prompts:
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce scelerisque nisl nec tortor iaculis convallis. 
+		Nam et est ornare, interdum mi et, imperdiet arcu. 
+		Fusce nec dapibus urna, at auctor lectus. 
+		Fusce id finibus tellus. 
+		Proin venenatis luctus mauris et faucibus. 
+		Aenean lorem arcu, ullamcorper ultrices dui non, 
+		congue venenatis nunc. Aliquam erat volutpat. 
+		Ut laoreet rutrum dolor, sed posuere elit malesuada eu. 
+		Sed porta, dolor ac convallis dictum, massa lorem semper
+		 nunc, a luctus felis nulla nec velit. 
+		 Phasellus laoreet odio et faucibus consectetur. 
+		 In hac habitasse platea dictumst. 
+		 In at ante finibus, laoreet sem a, congue purus. 
+		 Maecenas nec sollicitudin mi, sed aliquet felis. 
+		 Pellentesque tincidunt nec lacus at interdum. 
+		 Donec pellentesque justo sed rhoncus dictum.
 	</p>
 
-	<pre>npx sv create</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href={resolve('/sverdle')}>Sverdle</a> page illustrates SvelteKit's data loading and form handling.
-		Try using it with JavaScript disabled!
-	</p>
+	
 </div>
