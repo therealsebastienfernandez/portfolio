@@ -2,16 +2,15 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import github from '$lib/images/github.svg';
-	import logo from '$lib/images/svelte-logo.svg';
+	import linkedin from '$lib/images/linkedin.svg';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://svelte.dev/docs/kit">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://www.linkedin.com/in/s%C3%A9bastien-fernandez-1aaa24148/">
+			<img src={linkedin} alt="Linkedin" />
 		</a>
 	</div>
-
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
