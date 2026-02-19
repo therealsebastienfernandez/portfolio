@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
+	
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>A propos</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 

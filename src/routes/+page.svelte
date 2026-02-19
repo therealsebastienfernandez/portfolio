@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Acceuil</title>
 	<meta name="description" content="Svelte Portfolio" />
 </svelte:head>
 

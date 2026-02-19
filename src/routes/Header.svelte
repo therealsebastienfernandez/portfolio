@@ -17,11 +17,18 @@
 		</svg>
 		<ul>
 			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
-				<a href={resolve('/')}>Home</a>
+				<a href={resolve('/')}>Acceuil</a>
 			</li>
 			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href={resolve('/about')}>About</a>
+				<a href={resolve('/about')}>A propos</a>
 			</li>
+			<li aria-current={page.url.pathname === '/experiences' ? 'page' : undefined}>
+				<a href={resolve('/experiences')}>Expériences</a>
+			</li>
+			<li aria-current={page.url.pathname === '/skills' ? 'page' : undefined}>
+				<a href={resolve('/skills')}>Compétences</a>
+			</li>
+
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
