@@ -7,14 +7,13 @@
 
 <div class="app">
 	<Header />
-
-	<main>
-		{@render children()}
-	</main>
+	<main>{@render children()}</main>
 
 	<footer>
 		<p>
-			Portfolio réalisé par <strong>Sébastien Fernandez</strong> avec amour
+			Portfolio réalisé par
+			<strong>Sébastien Fernandez</strong>
+			avec amour
 		</p>
 	</footer>
 </div>
